@@ -1,0 +1,309 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, button{
+	font-family: 'Playfair Display', serif;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+.col-6{
+	width: 50%;
+	float: left;
+}
+
+.col-5{
+	width: 70%;
+	float: left;
+}
+
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+
+.col-3{
+	width: 30%;
+	float: left;
+}
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+
+.header img{
+	width: 120px;
+}
+
+.menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 5px 0px 5px 100px;
+}
+
+.menu li a{
+	font-size: 16px;
+	font-weight: 500;
+	color: #626262;
+}
+
+.menu li a:hover{
+	color: #000;
+}
+
+.banner{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+
+.banner img{
+	width: 100%;
+	padding-bottom: 60px;
+}
+
+.banner-text{
+	padding: 0px 56px;
+}
+
+.banner-text h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 0px;
+	color: #CDCCC7;
+}
+
+.banner-text h2{
+	padding: 10px 0px;
+	color: #626262;
+}
+
+.banner-text p{
+	padding: 20px 0px;
+	color: #626262;
+}
+
+.banner-text textarea{
+	border: none;
+	text-transform: uppercase;
+	padding: 30px 0px;
+	font-size: 18px;
+}
+
+.banner-text textarea::placeholder{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.banner-text textarea:focus{
+	outline: none;
+}
+
+.mid-1{
+	width: 100%;
+	float: left;
+}
+
+.gallery{
+	padding: 0px 56px;
+}
+
+.leftside{
+	width: auto;
+	padding-right: 40px;
+
+}
+
+.leftside img{
+	width: 100%;
+	padding: 0px 0px 30px;
+}
+
+.leftside h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 0px 0px 20px;
+	color: #CDCCC7;
+}
+
+.leftside h2{
+	font-size: 26px;
+	color: #626262;
+	padding: 0px 0px 40px;
+}
+
+.leftside p{
+	padding-bottom: 120px;
+	color: #626262;
+}
+
+.rightside{
+	width: auto;
+	padding-left: 40px;
+
+}
+
+.rightside img{
+	width: 100%;
+	padding: 0px 0px 30px;
+}
+
+.rightside h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 0px 0px 20px;
+	color: #CDCCC7;
+}
+
+.rightside h2{
+	font-size: 26px;
+	color: #626262;
+	padding: 0px 0px 40px;
+}
+
+.rightside p{
+	padding-bottom: 120px;
+	color: #626262;
+}
+
+.newsletter{
+	width: 100%;
+	float: left;
+	background: #F0F0F0;
+	margin-bottom: 130px; 
+}
+
+.newsletter h2{
+	text-align: center;
+	font-size: 26px;
+	color: #303030;
+	padding: 60px 0px 70px;
+}
+
+.newsletter form{
+	text-align: center;
+	padding: 0px 0px 70px;
+}
+
+.newsletter input{
+	width: 350px;
+	border: none;
+	padding: 10px 3px;
+	border-bottom: 2px solid #303030;
+	background: transparent;
+}
+
+.newsletter form{
+	position: relative;
+}
+
+.newsletter form i{
+	position: absolute;
+	top: 13px;
+	right: 398px;
+}
+
+.newsletter form i:hover{
+	cursor: pointer;
+}
+
+.newsletter input:focus{
+	outline: none;
+}
+
+.lower{
+	width: 100%;
+	float: left;
+}
+
+.load{
+	text-align: center;
+	margin: 50px 0px 150px;
+}
+
+.load button{
+	padding: 15px 38px;
+	border: 1px solid #5D5D5D;
+	font-size: 20px;
+	background: #FFFFFF;
+	color: #5C5C5C;
+	transition: 0.6s;
+}
+
+.load button:hover{
+	background: #5C5C5C;
+	color: #FFFFFF;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.6s; 
+}
+
+.footer{
+	width: 100%;
+	float: left;
+	background: #F0F0F0; 
+	padding: 40px 0px
+}
+
+.trams li{
+	display: inline-block;
+	padding-right: 15px;
+	font-size: 16px;
+}
+
+.trams li a{
+	color: #000;
+}
+
+.icon{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+.icon li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.icon li a{
+	color: #5E5E5E;
+	font-size: 20px;
+}
